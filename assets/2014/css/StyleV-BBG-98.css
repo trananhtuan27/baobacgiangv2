@@ -2392,10 +2392,6 @@ a.ButtonImage.btnLogo-fonttex:hover {
     width: 32px;
 }
 
-.topNewsLastestFirst {
-    float: left;
-}
-
 .topNewsLastestFirst p.lead {
     text-align: justify;
 }
