@@ -1,0 +1,70 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorboxframe, #cboxframeOverlay, #cboxframeWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxframeWrapper {max-width:none;}
+#cboxframeOverlay{position:fixed; width:100%; height:100%;}
+#cboxframeMiddleLeft, #cboxframeBottomLeft{clear:left;}
+#cboxframeContent{position:relative;}
+#cboxframeLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxframeTitle{margin:0;}
+#cboxframeLoadingOverlay, #cboxframeLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxframePrevious, #cboxframeNext, #cboxframeClose, #cboxframeSlideshow{cursor:pointer;}
+.cboxframePhoto{float:left; margin:auto; border1:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxframeIframe{width:100%; height:100%; display:block; border1:0; padding:0; margin:0;}
+#colorboxframe, #cboxframeContent, #cboxframeLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxframeOverlay{background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/overlay.png) repeat 0 0; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorboxframe{outline:0;}
+    #cboxframeTopLeft{width:21px; height:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -101px 0;}
+    #cboxframeTopRight{width:21px; height:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -130px 0;}
+    #cboxframeBottomLeft{width:21px; height:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -101px -29px;}
+    #cboxframeBottomRight{width:21px; height:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -130px -29px;}
+    #cboxframeMiddleLeft{width:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) left top repeat-y;}
+    #cboxframeMiddleRight{width:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) right top repeat-y;}
+    #cboxframeTopCenter{height:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/border1.png) 0 0 repeat-x;}
+    #cboxframeBottomCenter{height:21px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/border1.png) 0 -29px repeat-x;}
+    #cboxframeContent{background:#fff; overflow:hidden;}
+        .cboxframeIframe{background:#fff;}
+        #cboxframeError{padding:50px; border1:1px solid #ccc;}
+        #cboxframeLoadedContent{margin-bottom:28px;}
+        #cboxframeTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxframeCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxframeLoadingOverlay{background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/loading1_background.png) no-repeat center center;}
+        #cboxframeLoadingGraphic{background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/loading1.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxframePrevious, #cboxframeNext, #cboxframeSlideshow, #cboxframeClose {border1:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxframePrevious:active, #cboxframeNext:active, #cboxframeSlideshow:active, #cboxframeClose:active {outline:0;}
+
+        #cboxframeSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxframePrevious{position:absolute; bottom:0; left:0; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxframePrevious:hover{background-position:-75px -25px;}
+        #cboxframeNext{position:absolute; bottom:0; left:27px; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxframeNext:hover{background-position:-50px -25px;}
+        #cboxframeClose{position:absolute; bottom:0; border: none;right:0; top:0; background:url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/controls1.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxframeClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxframeIE #cboxframeTopLeft,
+.cboxframeIE #cboxframeTopCenter,
+.cboxframeIE #cboxframeTopRight,
+.cboxframeIE #cboxframeBottomLeft,
+.cboxframeIE #cboxframeBottomCenter,
+.cboxframeIE #cboxframeBottomRight,
+.cboxframeIE #cboxframeMiddleLeft,
+.cboxframeIE #cboxframeMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}

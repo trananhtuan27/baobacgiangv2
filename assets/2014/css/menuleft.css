@@ -1,0 +1,125 @@
+.main-filter {
+    height: 346px;
+    width: 66px;
+    background: rgba(255, 255, 255, 0.48);
+    left: 0px;
+    position: fixed;
+    top: 93px;
+    z-index: 1;
+}
+@media only screen and (max-width:1300px){
+	.main-filter { display:none}
+}
+.main-filter a {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-family: BaoBacGiang, Arial,Helvetica,sans-serif;
+    display: block;
+    width: 66px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.breadcrumbs .hot-latest a, .breadcrumbs .page, .category_page .main-filter>span, .main-filter a {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-filter span {
+    margin-bottom: 5px;
+    display: block;
+}
+.main-filter .latest {
+    position: relative;
+}
+.sbg--pin-hot {
+    background-position: 0 -8px;
+}
+.sbg--pin-event {
+    background-position: 0px -208px;
+}
+.sbg--pin-event, .sbg--pin-hot, .sbg--pin-latest, .sbg--pin-overview, .sbg--pin-recommend, .sbg--pin-video, .sbg--pin-images {
+    width: 35px;
+    height: 35px;
+}
+.sbg {
+    background-image: url(http://res.baobacgiang.com.vn/icon/desktop-sprite-menudoc.png);
+    background-size: 98px 370px;
+    vertical-align: middle;
+}
+.sbg, .story__tag a, .story__tag span {
+    display: inline-block;
+}
+.sbg--pin-latest {
+    background-position: 0 -57px;
+}
+.sbg--pin-images {
+    background-position: 0 -307px;
+}
+.sbg--pin-photo {
+    background-position: -7px -315px;
+    margin-right: 5px;
+    width: 28px;
+    height: 28px;
+}
+.sbg--pin-photo:hover {
+    background-position: -56px -315px;
+}
+.sbg--pin-video {
+    background-position: 0 -107px;
+}
+.main-filter .small-font i {
+    margin-bottom: 3px;
+}
+.sbg--pin-overview {
+    background-position: 0 -160px;
+}
+.main-filter a.is-active, .main-filter a:hover {
+    color: #DB562B;
+    border-bottom: 1px solid #DB562B;
+}
+
+
+/*
+.main-filter a.is-active, .main-filter a:visited {
+    color: #b9807e;
+    text-decoration: none;
+}
+*/
+
+
+
+.main-filter a.is-active .sbg--pin-event, .main-filter a:hover .sbg--pin-event {
+    background-position: -49px -1150px;
+}
+.main-filter .is-last {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: 0 0;
+    border-bottom: none!important;
+}
+.sbg--pin-recommend {
+    background-position: 0 -1200px;
+}
+.main-filter a.is-active .sbg--pin-hot, .main-filter a:hover .sbg--pin-hot {
+    background-position: -49px -8px;
+}
+.main-filter a.is-active .sbg--pin-latest, .main-filter a:hover .sbg--pin-latest {
+    background-position: -49px -57px;
+}
+.main-filter a.is-active .sbg--pin-images, .main-filter a:hover .sbg--pin-images {
+    background-position: -49px -307px;
+}
+.main-filter a.is-active .sbg--pin-video, .main-filter a:hover .sbg--pin-video {
+    background-position: -49px -107px;
+}
+.main-filter a.is-active .sbg--pin-overview, .main-filter a:hover .sbg--pin-overview {
+    background-position: -50px -160px;
+}
+.main-filter a.is-active .sbg--pin-event, .main-filter a:hover .sbg--pin-event {
+    background-position: -49px -1318px;
+}
+.main-filter a.is-active .sbg--pin-recommend, .main-filter a:hover .sbg--pin-recommend {
+    background-position: -49px -1200px;
+}

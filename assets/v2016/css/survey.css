@@ -1,0 +1,306 @@
+
+#main-container {
+    margin-top: 10px;
+}
+
+.bluetxt {
+    color: #4a90e2;
+}
+.orangetxt {
+    color: #f89406;
+}
+.mr10 {
+    margin-right: 10px;
+}
+b[data-tooltip] {
+    color: #4a90e2;
+    cursor: default;
+}
+.greentxt {
+    color: #8bc34a;
+}
+.graytxt {
+    color: #999;
+}
+.smalltxt {
+    font-size: 0.9em;
+}
+#box_details_news{}
+#box_details_news .fck_detail {
+    width: 98%;
+    float: left;
+    overflow: hidden;
+    font: 400 14px arial;
+    padding: 0 2% 0 0;
+    color: #333;
+}
+#box_details_news .fck_detail table {
+    max-width: 100%;
+    margin: 0 auto 10px;
+}
+#box_details_news .fck_detail td {
+    padding: 2px;
+}
+#box_details_news #boxthamdoykien {
+    margin: 0 0 10px;
+    display: block;
+}
+#boxthamdoykien .title_box_category {
+    margin: 0;
+}
+.title_box_category {
+        height: 30px;
+    background: #ccc url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/bg-1x28.gif) repeat-x left top;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.txt_main_category {
+    float: left;
+    margin: 0 0 0 10px;
+    display: inline;
+    font: 700 14px/30px arial;
+    color: #9f224e;
+}
+.txt_main_category span, .txt_main_category a {
+    color: #9f224e;
+    font: 700 14px/30px arial;
+    height: 28px;
+    display: block;
+    float: left;
+}
+#boxthamdoykien .content_box_category {
+    background: #f5f5f5;
+}
+
+.width_common {
+    width: 100%;
+    float: left;
+}
+
+.block_padding_10 {
+    padding: 10px;
+}
+
+#boxthamdoykien .title_thamdo {
+    font: 400 14px arial;
+}
+#boxthamdoykien .title_thamdo {
+    font: 700 12px arial;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.width_common {
+    width: 100%;
+    float: left;
+}
+#boxthamdoykien .tb_servey {
+    text-align: left;
+}
+#box_details_news #boxthamdoykien .tb_servey td, #boxthamdoykien .tb_servey td {
+    padding: 0 0 9px;
+}
+.tb_servey .w20 {
+    float: left;
+    width: 5%;
+}
+#boxthamdoykien .input_servey {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.content_survey input {
+    float: left;
+}
+/*
+input, textarea {
+    font-family: arial;
+    font-size: 11px;
+    border: none;
+    background: none;
+}
+*/
+.fck_detail .tb_servey .w130 {
+    width: 95%;
+    margin: 0;
+}
+
+.tb_servey .w130 {
+    float: left;
+    width: 87%;
+    margin: 0 0 0 3%;
+}
+#boxthamdoykien .btn_bieuquyet {
+    padding: 5px 7px;
+    border: none;
+    background: #858585;
+    color: #fff;
+    font: 700 11px arial;
+    cursor: pointer;
+}
+#box_details_news #boxthamdoykien .txt_xemketqua, #boxthamdoykien .txt_xemketqua {
+    font: 400 11px arial;
+    color: #9a1f44;
+}
+#box_details_news .short_intro a, #box_details_news .fck_detail a {
+    color: #004f8b;
+}
+
+.clear {
+    clear: both;
+    /* font-size: 0; */
+    /* line-height: 0; */
+}
+/* ========================= Ket qua binh chon ==============================*/
+
+#BoxOverlay {
+    position: fixed!important;
+    height: 100%!important;
+    width: 100%!important;
+}
+#login-vne7 {
+    background: #f4f4f4;
+    padding: 0;
+}
+.login-form {
+    width: 100%;
+    border: 1px solid #dedede;
+    background: #fff;
+    position: relative;
+    padding: 10px 0;
+}
+#login-vne7 .ttOline {
+    margin-bottom: 0;
+}
+
+#login-vne3 .ttOline, #login-vne4 .ttOline, #login-vne5 .ttOline, #login-vne6 .ttOline, #login-vne7 .ttOline, .ttOline {
+    background: #fff;
+    height: 28px;
+    padding: 8px 20px 0;
+    display: block;
+    overflow: hidden;
+    font: 700 16px arial;
+    color: #000;
+}
+
+.rs_vote {
+    display: block;
+    background: #ededed;
+    padding: 15px 20px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.question_vote {
+    font: 500 14px arial;
+    color: #9f224e;
+    margin: 0 0 4px;
+}
+
+.p_infoVote {
+    margin: 0;
+}
+
+.time_vote {
+    font: 400 11px arial;
+    color: #666;
+    float: left;
+}
+
+.total_vote {
+    float: right;
+    font: 400 11px arial;
+    color: #666;
+}
+
+.total_vote label {
+    font-weight: 700;
+    color: #9f224e;
+}
+
+.complete-form {
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+    font: 500 14px arial;
+    color: #000;
+    width: auto;
+}
+.list_rs {
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.width_common {
+    width: 100%;
+    float: left;
+}
+ul, li {
+    list-style-type: none;
+}
+.scroll_thongke {
+    float: left;
+    width: 92%;
+    padding: 0;
+    margin: 10px 4%;
+}
+.scroll_thongke li {
+    padding: 0 0 15px;
+    margin: 0 0 10px;
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    overflow: hidden;
+}
+.info_result {
+    display: block;
+}
+.rsV_left {
+    width: 25%;
+    float: left;
+    font: 12px arial;
+    color: #000;
+    margin: 0 2% 0 0;
+}
+.rsV_right {
+    width: 18%;
+    float: right;
+    font: 12px arial;
+    color: #999;
+    text-align: right;
+}
+.rsV_right label {
+    color: #000;
+}
+.scroll_color {
+    width: 55%;
+    float: left;
+    margin-top: 3px;
+    height: 5px;
+    background: #ccc;
+}
+.bg_center_scroll {
+    position: relative;
+    background: #9f224e;
+    float: left;
+    height: 5px;
+}
+.txt_number_ketqua {
+    display: inline-block;
+    padding: 5px 0 0;
+    position: absolute;
+    right: -10px;
+    bottom: -15px;
+    font: 10px arial;
+    color: #9f224e;
+}
+.close-lb {
+    background: url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/icon-total-01.png) no-repeat -22px -286px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+

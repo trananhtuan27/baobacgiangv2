@@ -1,0 +1,114 @@
+
+/*------Begin Thanh navbar-------*/
+#fixNav{
+	width: 100%;
+	height: 35px;
+	background-color: #52BD27;
+	display: none;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5); 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: 1000; 
+}
+#fixNav ul{
+	margin: 0;
+	padding-left: 0;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 1020px;
+}
+#fixNav ul li{
+	list-style:none inside;
+	width: auto;
+	float: left;
+	line-height: 35px; 
+	color: #fff;
+	padding: 0;
+	margin-right:0px;
+	position: relative;
+}
+#fixNav ul li a{
+	white-space: nowrap;
+	padding: 0 8px;			/* khoảng cách các li */
+	color: #fff;
+	display: block;
+	font-size: 15px;
+	text-decoration: none;
+}
+#fixNav ul li ul {
+	position: absolute;
+	width: auto;
+	display: none;
+	background-color: #459625;
+	border-bottom: 1px solid #fff;
+	padding-left: 0px;
+} 
+#fixNav ul li ul li{
+	display: block;
+	padding:0;
+	margin: 0;
+	border-top: 1px solid #fff;
+	float: none;
+}
+#fixNav ul li ul li a:hover {
+	background-color: #52BD27;
+	color: #fff;
+}
+#fixNav ul li a:hover {
+	background-color: #459625;
+	color: #FCF904;
+}
+#fixNav ul li:hover ul{
+	display: block;
+}
+.arrow-down1 {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 7px solid #fff;
+	float: none; 
+	margin-top:-7px; 
+	margin-left:45%;
+}
+.arrow-down2 {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 7px solid #fff;
+	float: none; 
+	margin-top:-7px; 
+	margin-left:40%;
+}
+
+/*------Begin Thanh navbar-------
+div.fixed-navbar {
+	background: #49A823;
+	border-top: #ffffff 1px solid;
+	position: fixed; top: 0; 
+	z-index:998;
+	text-align: left;
+	text-transform: uppercase;
+	width: 100%;
+	height: 24px;
+	padding:15;
+}
+div.fixed-navbar a:hover {
+	background:#459625;
+	border-top: #459625 19px solid;
+	border-bottom: #459625 19px solid;
+    color: #FAFD02;
+}
+div.fixed-navbar a	{
+ 	text-decoration:none;
+	font-size: 20px;
+    color: #fff;          
+}
+------End Thanh navbar-------*/
+
+
+

@@ -1,0 +1,20 @@
+.background-image-quangcao {
+    background: url(http://res.baobacgiang.com.vn/Quangcao/AgriBank/AgriBank1/PC-08.jpg) no-repeat scroll 15% 0 transparent;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    height: 700px;
+    margin: 0 auto;
+}
+
+.background-image-quangcao-09 {
+    background: url(http://res.baobacgiang.com.vn/Quangcao/AgriBank/AgriBank1/PC-09.jpg) no-repeat scroll 15% 0 transparent;
+    background-attachment: fixed;
+    height: 700px;
+    margin: 0 auto;
+}
+.background-image-quangcao-10 {
+    background: url(http://res.baobacgiang.com.vn/Quangcao/AgriBank/AgriBank2/agribank-ii-pc-02.jpg) no-repeat scroll 15% 0 transparent;
+    background-attachment: fixed;
+    height: 700px;
+    margin: 0 auto;
+}

@@ -1,0 +1,233 @@
+        .box-dudoan {
+          margin: 0px auto 22px;
+          border: 1px solid #404041;
+          display: block;
+          position: relative;
+        }
+        .box-dudoan .all_content{
+          padding: 60px 15px 20px;
+          display: block;
+        }
+
+        .box-dudoan .title {
+          text-align: center;
+          font-family: SFT-BoldG1;
+          font-style: normal;
+          font-size: 22px;
+          display: block;
+          color: #404041;
+          position: absolute;
+          top: 10px;
+          left: 0;
+          right: 0;
+        }
+
+        .khaosat_center {
+          position: relative;
+          display: flex;
+          width: 55%;
+          margin: 50px auto;
+          justify-content: center;
+        }
+
+        .khaosat_center:after {
+          width: 1px;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          border-left: 1px dashed #000;
+          content: '';
+          margin-left: -1px;
+        }
+
+        .khaosat_center .percen {
+          height: 45px;
+          font-family: SFT-BoldG1;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          color: #FFF;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .red1 {
+          background: #C91717;
+        }
+
+        .red3 {
+          background: #E48B8B;
+        }
+
+        .gray {
+          background: #d4d4d4;
+        }
+
+        .blue3 {
+          background: #89A1CA;
+        }
+
+        .blue1 {
+          background: #134395;
+        }
+
+        .ungho_left {
+          width: 50%;
+        }
+
+
+        .sebophieu_left {
+          width: 6%;
+        }
+
+        .nghiengve_left {
+          width: 12%;
+        }
+
+        .canhtranh {
+          width: 0%;
+        }
+
+        .nghiengve_right {
+          width: 8%;
+        }
+
+        .sebophieu_right {
+          width: 7%;
+        }
+
+        .ungho_right {
+          width: 50%;
+        }
+
+        .khaosat_center_top, .khaosat_center_bot {
+          position: absolute;
+          left: 50%;
+        }
+
+        .khaosat_center_top {
+          top: -4px;
+          transform: translate(-50%, -100%);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-left: -1px;
+        }
+
+        .khaosat_center_top span {
+          font-family: SFT-Regular;
+          font-style: normal;
+          font-size: 16px;
+          line-height: 160%;
+          color: #4f4f4f;
+        }
+
+        .khaosat_center_top svg {
+          margin-bottom: -4px;
+        }
+
+        .khaosat_center_bot {
+          bottom: -4px;
+          transform: translate(-50%, 100%);
+        }
+
+        .khaosat_bot_right .desc {
+          padding: 0 15px;
+          font-family: SFT-Regular;
+          font-style: normal;
+          font-size: 14px;
+          color: #000;
+          display: inline-block;
+        }
+
+        .khaosat_bot_left {
+          position: absolute;
+          display: block;
+          bottom: 20px;
+          right: 30px;
+        }
+
+        .khaosat_bot_left span {
+          font-size: 14px;
+          color: #4F4F4F;
+          font-family: SFT-Regular;
+        }
+
+        .khaosat_bot_left span i {
+          font-size: 14px;
+          font-family: SFT-Regular;
+        }
+
+        .khaosat_bot_right .circle {
+          margin-right: 4px;
+        }
+
+
+        .circle {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          margin-bottom: -3px;
+        }
+
+        .block-uv {
+          display: block;
+          position: absolute;
+          bottom: 75px;
+        }
+
+        .block-uv .title {
+          font-family: SFT-Bold;
+          font-style: normal;
+          font-size: 17px;
+          line-height: 160%;
+          color: #000;
+          margin-bottom: 10px;
+          display: block;
+        }
+
+        .block-uv .name {
+          font-family: SFT-BoldG1;
+          font-style: normal;
+          font-size: 17px;
+          line-height: 160%;
+          display: block;
+          color: #000;
+        }
+
+        .block-uv .dang {
+          font-family: SFT-Regular;
+          font-style: normal;
+          font-size: 16px;
+          line-height: 160%;
+          display: block;
+          color: #757575;
+        }
+
+        .block-uv.joe {
+          right: 15px;
+          text-align: right;
+        }
+
+        .sum_trump {
+          font-family: SFT-Bold;
+          font-size: 40px;
+          line-height: 60px;
+          color: #D62938;
+          position: absolute;
+          left: 0;
+          top:-50px;
+        }
+
+        .sum_joe {
+          font-family: SFT-Bold;
+          font-size: 40px;
+          line-height: 60px;
+          color: #134395;
+          position: absolute;
+          right: 0;
+          top:-50px;
+        }
+      

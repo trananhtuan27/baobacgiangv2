@@ -1,0 +1,103 @@
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,summary,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{background:none repeat scroll 0 0 transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}
+
+.border_1{border: 2px solid #ff0000;
+}
+
+
+.BBGBox_Head{
+	margin-bottom: 5px !important;
+	background-color: #f2f2f2;
+	height: 26px !important;
+}
+.CateTitle{
+	font-size: 20px !important;
+	margin-top: 0px !important;
+	padding: 0px 5px 9px !important;
+	line-height: 30px !important;
+}
+.BG1 .VnnBox-Head .title{
+	padding: 2px 5px 5px;
+	margin-left: 0px;
+	margin-top: 1px;
+	padding-left: 5px;
+	}
+.BG1 .VnnBox-Head .title:hover{
+	color: #be0000;
+	}
+.BG1 .VnnBoxFirst-List li a{
+	background: url(../images/dotter-box-1.png) no-repeat scroll 0px 11px transparent!important;
+	}
+
+.Box4 .VnnBox-Head .title{
+	cursor:pointer;
+	display:inline-block;
+	font-size: 19px;
+	height:22px;
+	line-height:22px;
+	padding-left: 0px;
+	white-space: nowrap;
+	margin-top: 0px !important;
+	text-transform: uppercase;
+	}
+.Box4 .VnnBox-Content{
+	padding:0!important
+	}
+.Title_Photo{
+	padding: 10px 0px 5px  !important;
+	margin-bottom: 5px !important;
+	margin-top: -5px;
+	border-bottom: 1px dashed rgba(208, 208, 208, 0.82);
+	line-height: 16px !important;
+}
+.Title_Photo a{
+    /* font-size: 12px !important; */
+    /* line-height: 14px !important; */
+    font-weight: 700 !important;
+    text-align: justify !important;
+ }
+ .Title_Photo a:hover{
+    color: #9f224e  !important;
+ }
+ .SubTitle_Photo_1{
+	 width: 100%!important;
+    text-align: justify!important;
+    text-indent: 0!important;
+    padding: 0 !important;
+ }
+ .SubTitle_Photo_2{
+	 margin-left: 0px!important;
+    display: inline-block!important;
+    padding-top: 0px!important;
+ }
+ .SubTitle_Photo_3{
+	padding-top: 0px !important;
+	margin-bottom: 5px !important;
+	text-indent: 0px;
+}
+.SubTitle_Photo_3 a{
+        line-height: 16px !important;
+        font-size: 13px !important;
+        font-weight: 300 !important;
+ }
+ .SubTitle_Photo_3 a:hover{
+    color: #9f224e  !important;
+ }
+	
+.icon_search{
+	border-left: 1px solid #E5E5E5;
+	padding-left: 5px;
+	padding-top: 3px;
+	height: 21px;
+	margin-top: -3px;
+	color: #999;
+}
+.icon_search:hover{
+    color: #990700;
+}
+.QuocTang{
+	filter: grayscale(100%); 
+	-webkit-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%); 
+	-ms-filter: grayscale(100%); 
+	-o-filter: grayscale(100%);
+}
