@@ -124,3 +124,132 @@
     font-size: 10px;
     line-height: 16px;
     color: #000000; }
+
+
+.batdongsan .children {
+    font-size: 16px;
+    color: #038;
+    line-height: 32px;
+    height: 32px;
+    margin: -30px 3px 0;
+}
+.batdongsan h4 {
+    float: none;
+    font-family: arial;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+}
+.CateBoxRight-Batdongsan-Second{
+    border-bottom: 1px solid #E5E5E5;
+    display:inline-block;
+    vertical-align:top;
+    padding: 5px 0px;
+}
+.CateBoxRight-Batdongsan-Second:nth-child(1){
+    padding-top:0;
+}
+.CateBoxRight-Batdongsan-Second:nth-child(3){
+    border:none;
+}
+.CateBoxBatdongsan-Second{
+    display:inline-block;
+    vertical-align:top;
+    width: 30% !important;
+    padding-right: 5%;
+}
+
+.CateBoxBatdongsan-Second:nth-child(3n){
+    /* border-left: 1px solid #dbdbdb; */
+    /* padding-left: 1% !important; */
+    padding-right: 0% !important;
+    width: 30% !important;
+    float: right;
+}
+
+.caption_title_line h2 {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+}
+.caption_title_line h2 a {
+    color: #000;
+}.caption_title_line h2 a:hover {
+     color: #be0000;
+    text-decoration: none;
+}
+.VideoBoxStyle1 .header {
+    color: #d50000;
+    padding: 5px 0 2px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.header {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #9f224e;
+    color: #9f224e;
+    font-size: 13px;
+    font-weight: 300;
+    width: 270px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    padding-right: 2px;
+}
+.header a {
+    padding: 5px 0px;
+    color: #000;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.header a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.VideoBoxHot .backgroundimg{
+    background: #f4f4f4 !important;
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+.text-content-sapo-right a {
+    color: #000;
+}
+.text-content-sapo-right a:hover {
+    color: #9f224e;
+    text-decoration: none;
+}
+.cut-text-three {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.VnnBoxFirstSaPo img {
+    width: 100%;
+    height: 125px;
+    background: #f4f4f4 !important;
+    object-fit: cover;
+}
+/*.flex {*/
+/*    display: flex;*/
+/*}*/
+/*.img-right-diaphuong {*/
+/*    width: 120px;*/
+/*    height: 70px;*/
+/*    object-fit: cover;*/
+/*}*/

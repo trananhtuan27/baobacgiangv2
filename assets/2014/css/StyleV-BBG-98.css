@@ -99,6 +99,7 @@ input, select {
 }
 
 .background-img {
+    width: 100%;
     background: #f4f4f4 !important;
     background-image: url(https://imgs.baobacgiang.com.vn/khongcoanh.jpg);
 }
@@ -158,7 +159,7 @@ input, select {
 }
 
 .playclip-01 {
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-play-120x60.png) repeat scroll 50% 50% transparent;
+    background: url(../../images/icon-play-120x60.png) repeat scroll 50% 50% transparent;
     background-position: 0 0;
     height: 60px;
     width: 58px;
@@ -174,7 +175,7 @@ input, select {
 }
 
 .playclip-02 {
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-play-90x45.png) repeat scroll 50% 50% transparent;
+    background: url(../../images/icon-play-90x45.png) repeat scroll 50% 50% transparent;
     background-position: -3px -5px;
     height: 35px;
     width: 35px;
@@ -2228,7 +2229,7 @@ ul.menuFirstTopBox li a:hover {
     color: #fff !important;
     text-shadow: none !important;
     background: #990700;
-    background-image: url(http://res.baobacgiang.com.vn/icon/new.jpg);
+    background-image: url(../../images/new.jpg);
     height: 24px;
 }
 
@@ -2314,14 +2315,14 @@ a.ButtonImage.btnLogo-fonttex:hover {
 }
 
 .newss {
-    background-image: url(http://res.baobacgiang.com.vn/Quangcao/2015/moi.gif);
+    background-image: url(../../images/moi.gif);
     height: 20px;
     width: 40px;
     margin-right: 50px;
 }
 
 .newss-QuangCaoVaiThieu {
-    background-image: url(http://res.baobacgiang.com.vn/Quangcao/2015/moi.gif);
+    background-image: url(../../images/moi.gif);
     height: 30px;
     position: absolute;
     top: 620px;
@@ -2742,24 +2743,24 @@ a.ButtonImage.btnLogo-fonttex:hover {
 }
 
 .HomeCateNewsItemFirst {
-    float: left;
-    width: 58.2%;
-    overflow: hidden;
-    display: block;
+    /*float: left;*/
+    /*width: 58.2%;*/
+    /*overflow: hidden;*/
+    /*display: block;*/
 }
 
 .HomeCateNewsItemFirst_Images {
-    float: left;
-    width: 100%;
-    overflow: hidden;
-    display: grid;
+    /*float: left;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+    /*display: grid;*/
 }
 
 .HomeCateNews {
-    float: right;
-    padding-left: 0px;
-    width: 38.5%;
-    padding-top: 0px;
+    /*float: right;*/
+    /*padding-left: 0px;*/
+    /*width: 38.5%;*/
+    /*padding-top: 0px;*/
 }
 
 .HomeCateNews-1 {
@@ -3183,7 +3184,7 @@ a.ButtonImage.btnLogo-fonttex:hover {
 
 
 .btnRss-MTS {
-    background-image: url(http://res.baobacgiang.com.vn/icon/mts.png);
+    background-image: url(../../images/mts.png);
     height: 20px;
     width: 20px;
     margin-bottom: 2px;
@@ -3485,27 +3486,22 @@ ul.HomeCateNewsItem-Submenu-VietYen li a:hover {
 }
 
 #BodyLeftWraper {
-    float: left;
-    margin-right: 5px;
-    width: 600px;
+    /*float: left;*/
+    /*margin-right: 5px;*/
+    /*width: 600px;*/
 }
 
 #BodyWraperCate {
     float: left;
     margin-right: 5px;
     width: 1200px;
-    background: url(http://res.baobacgiang.com.vn/background/nen-web.jpg) repeat scroll 4px 5px transparent;
+    background: url(../../images/nen-web.jpg) repeat scroll 4px 5px transparent;
 }
 
-#BodyCenterWraper {
-    float: left;
-    width: 330px;
-    margin-left: 15px;
-}
 
 #BodyRightWraper {
-    float: right;
-    width: 19.2%;
+    /*float: right;*/
+    /*width: 19.2%;*/
 }
 
 #BodyRightWraperCateDetail {
@@ -3550,7 +3546,7 @@ ul.HomeCateNewsItem-Submenu-VietYen li a:hover {
 }
 
 .BottomContentWraper2 {
-    background: url(http://res.baobacgiang.com.vn/icon/Ma_QR_Page_Bao_Bac_Giang.svg) 0px 0px no-repeat rgba(0, 0, 0, 0);
+    background: url(../../images/Ma_QR_Page_Bao_Bac_Giang.svg) 0px 0px no-repeat rgba(0, 0, 0, 0);
     min-height: 69px;
     background-size: 273px;
     float: right;
@@ -3586,7 +3582,7 @@ ul.HomeCateNewsItem-Submenu-VietYen li a:hover {
 
 .menu-bottom-master {
     position: relative;
-    background: url(http://res.baobacgiang.com.vn/images/global-map.png) center top/660px 328px no-repeat #FEF9E6;
+    background: url(../../images/global-map.png) center top/660px 328px no-repeat #FEF9E6;
     border-top: 0px double #ccc;
     padding-bottom: 0px;
     width: 100%;
@@ -3730,7 +3726,7 @@ ul.HomeCateNewsItem-Submenu-VietYen li a:hover {
 }
 
 .bg-kecheo {
-    background: url(http://res.baobacgiang.com.vn/BacGiang/v2014/images/LocalPage/lucngan/bg-footer-ln.png) repeat scroll 50% 50% transparent;
+    background: url(../../images/bg-footer-ln.png) repeat scroll 50% 50% transparent;
 }
 
 .bg-none {
@@ -3889,10 +3885,10 @@ ul.menuBottom2 li a:hover {
 }
 
 .VnnBoxFirst_CateCenter_imag {
-    overflow: hidden;
-    display: grid;
-    width: 300px;
-    height: 170px;
+    /*overflow: hidden;*/
+    /*display: grid;*/
+    /*width: 300px;*/
+    /*height: 170px;*/
 }
 
 .VnnBoxFirst_CateCenter_imagL {
@@ -3904,11 +3900,11 @@ ul.menuBottom2 li a:hover {
 }
 
 .VnnBoxFirst_CateCenter_imagCenter {
-    overflow: hidden;
-    display: grid;
-    width: 160px;
-    height: 90px;
-    float: left;
+    /*overflow: hidden;*/
+    /*display: grid;*/
+    /*width: 160px;*/
+    /*height: 90px;*/
+    /*float: left;*/
 }
 
 .VnnBoxFirst img.thumb {
@@ -4059,7 +4055,7 @@ ul.menuBottom2 li a:hover {
 
 .Box4 .Style-audio h2.title:hover {
     padding-top: 5px;
-    background: url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/icon/icon-1.gif) no-repeat scroll 0px 5px transparent !important;
+    background: url(../../images/icon/icon-1.gif) no-repeat scroll 0px 5px transparent !important;
 }
 
 .Box4 .eventhot {
@@ -4275,7 +4271,7 @@ ul.menuBottom2 li a:hover {
     display: inline-block;
     width: 18px;
     height: 16px;
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-photo.png) no-repeat 50% 50%/18px auto;
+    background: url(../../images/icon-photo.png) no-repeat 50% 50%/18px auto;
     font-size: 0;
     padding-left: 15px;
     margin-top: -4px;
@@ -5030,6 +5026,7 @@ table.image, table.image td, table.image th {
 }
 
 .Cate_Detail_New-Otoxemay {
+    margin-top: 30px;
     overflow: hidden;
     display: grid;
 }
@@ -5056,6 +5053,8 @@ table.image, table.image td, table.image th {
     font-weight: 700;
     line-height: 20px;
     min-height: 155px;
+    color: #000;
+    text-decoration: none;
 }
 
 .ArticleNews_LatestList-Otoxemay .ArticleNews_LatestItem-Otoxemay h2.title-Otoxemay a:hover {
@@ -6956,7 +6955,7 @@ span.articletype_4 {
 }
 
 .bor1 {
-    background: url(http://res.baobacgiang.com.vn/Quangcao/2015/moi.gif) no-repeat;
+    background: url(../../images/moi.gif) no-repeat;
     padding-left: 60px;
     height: 22px;
 }
@@ -7034,7 +7033,7 @@ span.articletype_4 {
 }
 
 .icon_fiml {
-    background: url(http://res.baobacgiang.com.vn/icon/fiml.jpg) no-repeat;
+    background: url(../../images/fiml.jpg) no-repeat;
     padding-right: 40px;
     margin-left: -5px !important;
     height: 24px;
@@ -7110,7 +7109,7 @@ span.articletype_4 {
 }
 
 .BG3 .VnnBoxFirst-List li a:hover {
-    background: url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/icon/icon-1.gif) no-repeat scroll -2px 10px transparent !important;
+    background: url(../../images/icon-1.gif) no-repeat scroll -2px 10px transparent !important;
 }
 
 .BG4 .VnnBox-Head {
@@ -7633,7 +7632,7 @@ div.fix-300 {
 }
 
 .fix-300 .playclip300 {
-    background: url(../images/icon-play.png) repeat scroll 50% 50% transparent;
+    background: url(../../images/icon-play.png) repeat scroll 50% 50% transparent;
     height: 29px;
     left: 135px;
     position: absolute;
@@ -7642,7 +7641,7 @@ div.fix-300 {
 }
 
 .IconPlayClip {
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/ico-play-90x45.png) repeat scroll 50% 50% transparent;
+    background: url(../../images/ico-play-90x45.png) repeat scroll 50% 50% transparent;
     background-position: 0 0;
     height: 45px;
     width: 45px;
@@ -7652,7 +7651,7 @@ div.fix-300 {
 }
 
 .IconPlayClip:hover {
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/ico-play-90x45.png) repeat scroll 50% 50% transparent;
+    background: url(../../images/ico-play-90x45.png) repeat scroll 50% 50% transparent;
     background-position: -45px 0px;
     height: 45px;
     width: 45px;
@@ -8083,15 +8082,15 @@ opacity:
 .m-qc-footer-10 {
     width: 1000px;
     height: 230px;
-    background-image: url(http://res.baobacgiang.com.vn/Quangcao/2016/bbg.jpg);
+    background-image: url(../../images/bbg.jpg);
     transition: all 0.75s ease 0.3s;
 }
 
 .m-qc-footer-10:hover {
     cursor: pointer;
     transition: all 0.75s ease 0.3s;
-    background-image: url(http://res.baobacgiang.com.vn/Quangcao/2016/4.jpg);
-    background-image: url(http://res.baobacgiang.com.vn/Quangcao/2016/3.jpg);
+    background-image: url(../../images/4.jpg);
+    background-image: url(../../images/3.jpg);
 }
 
 .bgsubtitle {
@@ -8275,7 +8274,7 @@ opacity:
 .Quanhovietyen .HomeCateNewsItem-Content {
     background-color: #ECCCCC;
     background-color: #FFE5C6;
-    background: rgba(0, 0, 0, 0) url(http://res.baobacgiang.com.vn/quangcao/2017/4.gif) no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(../../images/4.gif) no-repeat scroll 0 0;
     background-color: #FBE7D0;
     padding-top: 2px;
 }
@@ -8348,7 +8347,7 @@ opacity:
 
 
 .Muavaithieu {
-    background: rgba(0, 0, 0, 0) url(http://res.baobacgiang.com.vn/quangcao/2017/nenvaithieu.png) no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(../../images/nenvaithieu.png) no-repeat scroll 0 0;
 }
 
 .Muavaithieu .HomeCateNewsItem-Head {
@@ -8599,7 +8598,7 @@ opacity:
     background-position: 4px 2px;
     height: 12px !important;
     width: 20px !important;
-    background-image: url("http://res.baobacgiang.com.vn/jscore/titleicons/tetle-icon.png");
+    background-image: url("../../images/tetle-icon.png");
     background-repeat: no-repeat;
     position: relative;
     top: -2px;
@@ -8614,7 +8613,7 @@ opacity:
     background-position: -18px 1px;
     height: 12px !important;
     width: 20px !important;
-    background-image: url("http://res.baobacgiang.com.vn/jscore/titleicons/tetle-icon.png");
+    background-image: url("../../images/tetle-icon.png");
     background-repeat: no-repeat;
     position: relative;
     top: -2px;
@@ -8628,7 +8627,7 @@ opacity:
     display: inline-block;
     width: 16px;
     height: 11px;
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-video.png) no-repeat 50% 50%/16px auto;
+    background: url(../../images/icon-video.png) no-repeat 50% 50%/16px auto;
     font-size: 0;
     padding-left: 15px;
     margin-top: -2.5px;
@@ -8639,7 +8638,7 @@ opacity:
     display: inline-block;
     width: 18px;
     height: 18px;
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/video-play-3-xxl.png) repeat scroll 50% 50%/18px transparent;
+    background: url(../../images/video-play-3-xxl.png) repeat scroll 50% 50%/18px transparent;
     border-radius: 100%;
     font-size: 0;
     margin-top: 0px;
@@ -8651,7 +8650,7 @@ opacity:
     display: inline-block;
     width: 18px;
     height: 16px;
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-photo.png) no-repeat 50% 50%/18px auto;
+    background: url(../../images/icon-photo.png) no-repeat 50% 50%/18px auto;
     font-size: 0;
     padding-left: 15px;
     margin-top: -2px;
@@ -8663,7 +8662,7 @@ opacity:
     background-position: -72px 1px;
     height: 15px !important;
     width: 20px !important;
-    background-image: url(http://res.baobacgiang.com.vn/jscore/titleicons/tetle-icon.png);
+    background-image: url(../../images/tetle-icon.png);
     background-repeat: no-repeat;
     position: relative;
     top: -2px;
@@ -8678,7 +8677,7 @@ opacity:
     background-position: -97px 1px;
     height: 15px !important;
     width: 41px !important;
-    background-image: url(http://res.baobacgiang.com.vn/jscore/titleicons/tetle-icon.png);
+    background-image: url(../../images/tetle-icon.png);
     background-repeat: no-repeat;
     position: relative;
     top: -2px;
@@ -8692,7 +8691,7 @@ opacity:
     display: inline-block;
     width: 43px;
     height: 13px;
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-hot.png) no-repeat 50% 50%/43px auto;
+    background: url(../../images/icon-hot.png) no-repeat 50% 50%/43px auto;
     font-size: 0;
     padding-left: 5px;
     margin-top: 1px;
@@ -8704,7 +8703,7 @@ opacity:
     background-position: -168px 1px;
     height: 15px !important;
     width: 43px !important;
-    background-image: url(http://res.baobacgiang.com.vn/jscore/titleicons/tetle-icon.png);
+    background-image: url(../../images/tetle-icon.png);
     background-repeat: no-repeat;
     position: relative;
     top: -2px;
@@ -8719,7 +8718,7 @@ opacity:
     background-position: 0px 2px;
     height: 15px !important;
     width: 50px !important;
-    background-image: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-tructuyen.gif);
+    background-image: url(../../images/icon-tructuyen.gif);
     background-repeat: no-repeat;
     position: relative;
     top: 0px;
@@ -8733,7 +8732,7 @@ opacity:
     display: inline-block;
     width: 18px;
     height: 16px;
-    background: url(http://res.baobacgiang.com.vn/jscore/titleicons/icon-inforgraphic.png) no-repeat 50% 50%/18px auto;
+    background: url(../../images/icon-inforgraphic.png) no-repeat 50% 50%/18px auto;
     background-color: rgba(255, 255, 255, 0.56);
     font-size: 0;
     padding: 2px;
@@ -9229,7 +9228,7 @@ opacity:
 }
 
 .btnLogoSmall {
-    background: rgba(0, 0, 0, 0) url(http://res.baobacgiang.com.vn/BacGiang/v2016/images/logosmall-vietnamese.png) no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(../../images/logosmall-vietnamese.png) no-repeat scroll 0 0;
     height: 222%;
     left: -175px;
     position: absolute;
@@ -9539,7 +9538,7 @@ ul.menu-top li.item .submenu li.active ul li a:hover {
 }
 
 ul.menu-top li.item a.label span b.icon-menu {
-    background: url(http://res.baobacgiang.com.vn/icon/icon-baobacgiang.png) no-repeat scroll 0px 50% transparent;
+    background: url(../../images/icon-baobacgiang.png) no-repeat scroll 0px 50% transparent;
     background-position: -140px -578px;
     display: inline-block;
     font-size: 0;
@@ -9558,7 +9557,7 @@ ul.menu-top li.item.active a.label span b.icon-menu, ul.menu-top li.item:hover a
 }
 
 ul.menu-top li.item a.label span b.icon-home {
-    background: url(http://res.baobacgiang.com.vn/icon/icon-baobacgiang.png) no-repeat scroll 0px 50% transparent;
+    background: url(../../images/icon-baobacgiang.png) no-repeat scroll 0px 50% transparent;
     background-position: -2px -226px;
     display: inline-block;
     font-size: 0;
@@ -9568,7 +9567,7 @@ ul.menu-top li.item a.label span b.icon-home {
 }
 
 ul.menu-top li.item a.label span b.icon-mobile {
-    background: url(http://res.baobacgiang.com.vn/icon/icon-baobacgiang.png) no-repeat scroll 0px 50% transparent;
+    background: url(../../images/icon-baobacgiang.png) no-repeat scroll 0px 50% transparent;
     background-position: -80px -147px;
     display: inline-block;
     font-size: 0;
@@ -9665,7 +9664,7 @@ ul.menu-top li.item.active a.label span b.icon-mobile, ul.menu-top li.item:hover
     position: absolute;
     right: 0px;
     width: 580px;
-    background: url(http://res.baobacgiang.com.vn/icon/Icon-SearchButton.png) no-repeat scroll 0px 50% transparent;
+    background: url(../../images/Icon-SearchButton.png) no-repeat scroll 0px 50% transparent;
     cursor: pointer;
     display: inline-block;
     margin-left: 4px;
@@ -9804,7 +9803,7 @@ ul.menu-top li.item.active a.label span b.icon-mobile, ul.menu-top li.item:hover
 }
 
 .spr:hover {
-    background-image: url(http://res.baobacgiang.com.vn/jscore/titleicons/sprites.png);
+    background-image: url(../../images/sprites.png);
     display: inline-block;
     vertical-align: middle;
     background-size: 530px 188px;
@@ -9842,7 +9841,7 @@ ul.menu-top li.item.active a.label span b.icon-mobile, ul.menu-top li.item:hover
 }
 
 .spr-detail:hover {
-    background-image: url(http://res.baobacgiang.com.vn/jscore/titleicons/sprites.png);
+    background-image: url(../../images/sprites.png);
     display: inline-block;
     vertical-align: middle;
     background-size: 550px 188px;
@@ -10302,7 +10301,7 @@ ul.menu-top li.item.active a.label span b.icon-mobile, ul.menu-top li.item:hover
 
 /*-----------------------Cate Dia Phuong-------------------*/
 .Backgroud-DiaPhuongHome {
-    background: url(http://res.baobacgiang.com.vn/images/global-map.png) center top/660px 328px no-repeat #FEF9E6;
+    background: url(../../images/global-map.png) center top/660px 328px no-repeat #FEF9E6;
 }
 
 .HomeCateNewsItem-Head-CateDiaPhuongHome {
@@ -10452,11 +10451,11 @@ corresponding value from the list below*/
 }
 
 /*----------------------------Begin Style V2-Home CateBox-Hoziroltal----------------------------*/
-.thumbnail {
-    width: 222px;
-    height: 137px;
-    overflow: hidden;
-}
+/*.thumbnail {*/
+/*    width: 222px;*/
+/*    height: 137px;*/
+/*    overflow: hidden;*/
+/*}*/
 
 .thumbnail img {
     width: 100%;
@@ -10484,7 +10483,7 @@ corresponding value from the list below*/
 
 
 .TopNewsItem {
-    width: 224px;
+    width: 232px;
     float: left;
     display: inline-block;
     padding: 0px 8px;
@@ -10509,7 +10508,7 @@ corresponding value from the list below*/
     padding-top: 9px;
     width: 100%;
     /* height: 291px; */
-    background: url(http://res.baobacgiang.com.vn/Background/background11.jpg) scroll 0 0;;;
+    background: url(../../images/background11.jpg) scroll 0 0;;;
 }
 
 .TopNewsList .title {
@@ -11080,9 +11079,9 @@ corresponding value from the list below*/
 
 /*----------------------------Begin Cate 3 Item World Cup-***-Thi THPT Quoc Gia----------------------------*/
 .bgworldcup {
-    background: url(http://res.baobacgiang.com.vn/images/tay-yen-tu.jpg) center 0px no-repeat;
+    background: url(../../images/tay-yen-tu.jpg) center 0px no-repeat;
     background: #d8d8d8;
-    background: url(http://res.baobacgiang.com.vn/images/thithptqg.jpg) center 0px no-repeat;
+    background: url(../../images/thithptqg.jpg) center 0px no-repeat;
     padding-top: 10px;
     padding-left: 5px;
     margin-bottom: 20px;
@@ -11573,7 +11572,7 @@ corresponding value from the list below*/
 }
 
 .thoitiet {
-    background: url(http://res.baobacgiang.com.vn/icon/thoitiet.jpg) left center no-repeat;
+    background: url(../../images/thoitiet.jpg) left center no-repeat;
     height: 32px;
     padding-left: 40px;
     float: left;
@@ -11581,7 +11580,7 @@ corresponding value from the list below*/
 
 /*----------------------------Begin Bac Giang Media----------------------------*/
 .caption {
-    background: url(http://res.baobacgiang.com.vn/icon/movie-roll.png) left center no-repeat;
+    background: url(../../images/movie-roll.png) left center no-repeat;
     height: 75px;
     padding-left: 60px;
     width: 880px;
